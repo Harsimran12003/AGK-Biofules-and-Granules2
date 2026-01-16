@@ -1,0 +1,71 @@
+/* ===== RESET ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ===== BASE ===== */
+body {
+  font-family: "Poppins", system-ui, sans-serif;
+  background: #f9fbfc;
+  color: #1f2933;
+  line-height: 1.7;
+}
+
+/* ===== CONTAINER ===== */
+.legal-container {
+  max-width: 900px;
+  margin: 100px auto;
+  padding: 0 24px;
+}
+
+/* ===== HEADINGS ===== */
+.legal-container h1 {
+  font-size: 2.4rem;
+  font-weight: 600;
+  color: #0b4f6c;
+  margin-bottom: 8px;
+}
+
+.legal-container h2 {
+  margin-top: 40px;
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #0b4f6c;
+}
+
+/* ===== TEXT ===== */
+.legal-container p {
+  margin-top: 16px;
+  font-size: 0.95rem;
+  color: #374151;
+}
+
+.legal-container ul {
+  margin-top: 16px;
+  padding-left: 20px;
+}
+
+.legal-container ul li {
+  margin-bottom: 10px;
+  font-size: 0.95rem;
+}
+
+/* ===== UPDATED DATE ===== */
+.updated {
+  font-size: 0.85rem;
+  color: #6b7280;
+  margin-bottom: 24px;
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 768px) {
+  .legal-container {
+    margin: 80px auto;
+  }
+
+  .legal-container h1 {
+    font-size: 2rem;
+  }
+}
